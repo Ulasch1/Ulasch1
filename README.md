@@ -83,10 +83,10 @@ I am a third-year Computer Engineering student with a passion for designing scal
 ###  Highlighted Projects
 
 #### 🤖 **[OTTO: Event-Sourced Multi-Agent Orchestration Framework](https://github.com/Ulasch1/otto)**
-*An event-driven multi-agent routing and automated research platform built on the openClaw ecosystem — deployed as a live single-tenant social-media growth agent for a small e-commerce shop.*
+*An event-driven multi-agent routing and automated research platform built on the openClaw ecosystem, deployed as a live single-tenant social-media growth agent for a small e-commerce shop.*
 
 - **Architecture:** Single isolated agent carrying four role hats (strategy, competitor/trend scanning, content drafting, reporting) via skills + cron rather than separate agents.
-- **RAG:** Built-in hybrid vector+keyword memory with local Llama-cpp embeddings — no custom retrieval pipeline. Two-tier knowledge (time-sensitive trend scans vs. curated evergreen knowledge) with a human-curated ingest → distill → archive pipeline.
+- **RAG:** Built-in hybrid vector+keyword memory with local Llama-cpp embeddings (`embeddinggemma-300m`), no custom retrieval pipeline. Two-tier knowledge (time-sensitive trend scans vs. curated evergreen knowledge) with a human-curated ingest, distill, archive pipeline.
 - **Safety:** Human-in-the-loop by design (never auto-posts), prompt-injection defense (web/file content always treated as data), fixed persona/safety files the agent cannot self-modify.
 - **Tech Stack:** Python, DeepSeek, Google Gemini, Tavily, Llama-cpp, Telegram API, cron.
 
