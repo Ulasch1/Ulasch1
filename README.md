@@ -98,7 +98,7 @@ I am a third-year Computer Engineering student with a passion for designing scal
 - **Healing:** 3-round self-healing cycle with persistent state logs synced to an Obsidian markdown vault.
 - **Tech Stack:** Python, Claude (Opus and Sonnet), DeepSeek API, Bash, Git, Obsidian.
 
-#### 🌿 **Hardware-based Automated Plant Telemetry System**
+#### 🌿 **[smart-plant-observing-system](https://github.com/Ulasch1/smart-plant-observing-system)**
 *An energy-efficient, robust IoT prototype built to eliminate probe degradation and signal noise.*
 
 - **Power Optimization:** Implemented a Pulse-Drive algorithm to power sensors for only 50ms per read, reducing probe corrosion by 97.5%.
