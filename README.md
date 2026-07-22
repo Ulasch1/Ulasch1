@@ -70,10 +70,12 @@ I am a third-year Computer Engineering student with a passion for designing scal
       <br>Docker
     </td>
     <td align="center" width="96">
-      <!-- Placeholder -->
+      <img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" />
+      <br>TypeScript
     </td>
     <td align="center" width="96">
-      <!-- Placeholder -->
+      <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" />
+      <br>Next.js
     </td>
   </tr>
 </table>
@@ -97,6 +99,14 @@ I am a third-year Computer Engineering student with a passion for designing scal
 - **QA & Analysis:** DeepSeek-driven code generation paired with parallel execution testing (Tester) and static analysis (Critic).
 - **Healing:** 3-round self-healing cycle with persistent state logs synced to an Obsidian markdown vault.
 - **Tech Stack:** Python, Claude (Opus and Sonnet), DeepSeek API, Bash, Git, Obsidian.
+
+#### 💸 **[Fplit: Group Expense Splitting](https://github.com/Ulasch1/fplit)**
+*A full-stack expense-splitting app that tracks who owes whom and settles debts in the minimum possible number of transfers.*
+
+- **Settlement Algorithm:** Computes net balances across a group and simplifies them into the fewest transfers, instead of naively settling every pairwise debt.
+- **Correctness by Design:** Splits are evaluated against the group's current membership rather than frozen at expense-creation time, so late joiners and leavers stay consistent.
+- **Trust Flow:** Two-sided payment confirmation (payer marks paid, payee confirms or rejects) with notifications, and groups auto-close once every balance nets to zero.
+- **Tech Stack:** TypeScript, Next.js (App Router), Tailwind CSS, Node.js, Express, Prisma, PostgreSQL, JWT auth.
 
 #### 🌿 **[Smart Plant Observing System](https://github.com/Ulasch1/smart-plant-observing-system)**
 *An energy-efficient, robust IoT prototype built to eliminate probe degradation and signal noise.*
